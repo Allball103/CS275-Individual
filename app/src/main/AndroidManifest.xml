@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CreationActivity"></activity>
+        <activity android:name=".MatchupChartAdapter"></activity>
+        <activity android:name=".dummy.MatchupChartDao" />
+        <activity android:name=".CreationActivity" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
